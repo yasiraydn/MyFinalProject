@@ -1,5 +1,5 @@
-﻿using System.Reflection.Metadata;
-using Entities.Abstract;
+﻿using Core.Entities;
+using System.Reflection.Metadata;
 
 namespace Entities.Concrete
 {
