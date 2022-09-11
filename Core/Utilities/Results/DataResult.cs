@@ -17,9 +17,6 @@ namespace Core.Utilities.Results
         }
 
         public T Data { get; }
-        public IEnumerator GetEnumerator()
-        {
-            return _dataResultImplementation.GetEnumerator();
-        }
+        
     }
 }
