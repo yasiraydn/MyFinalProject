@@ -4,7 +4,7 @@ namespace Core.Utilities.Results
 {
     public class DataResult<T> : Result, IDataResult<T>
     {
-        private IDataResult<T> _dataResultImplementation;
+        private IDataResult<T> dataResultImplementation;
 
         public DataResult(T data, bool success, string message) : base(success, message)
         {
