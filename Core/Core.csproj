@@ -13,7 +13,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Aspects\Autofac\Validation\" />
     <Folder Include="CrossCuttingConcerns\Validation\" />
     <Folder Include="Utilities\Results\" />
   </ItemGroup>

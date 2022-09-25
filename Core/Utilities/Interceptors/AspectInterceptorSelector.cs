@@ -2,11 +2,10 @@
 using System.Linq;
 using System.Reflection;
 using Castle.DynamicProxy;
-using static Core.Entities.Interceptors.Class1;
 
-namespace Core.Entities.Interceptors
+namespace Core.Utilities.Interceptors
 {
-    
+
     public class AspectInterceptorSelector : IInterceptorSelector
     {
         public IInterceptor[] SelectInterceptors(Type type, MethodInfo method, IInterceptor[] interceptors)

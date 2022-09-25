@@ -2,8 +2,8 @@
 using System.Linq;
 using Castle.DynamicProxy;
 using Core.CrossCuttingConcerns.Validation;
+using Core.Utilities.Interceptors;
 using FluentValidation;
-using static Core.Entities.Interceptors.Class1;
 
 namespace Core.Aspects.Autofac.Validation
 {

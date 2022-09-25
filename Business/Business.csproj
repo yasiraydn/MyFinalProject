@@ -9,6 +9,7 @@
     <Folder Include="Concrete\" />
     <Folder Include="Constants\" />
     <Folder Include="DependencyResolvers\Autofac\" />
+    <Folder Include="CCS\" />
     <Folder Include="ValidationRules\FluentValidation\" />
   </ItemGroup>
 
